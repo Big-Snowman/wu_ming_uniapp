@@ -1,0 +1,114 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "佚名",
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+					"path" : "pages/choiceness/choiceness",
+					"style" :                                                                                    
+					{
+							"navigationBarTitleText": "精选",
+							"enablePullDownRefresh": true,
+							"navigationBarBackgroundColor":"#E8E8E8"
+					}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": true,
+								"navigationBarBackgroundColor":"#fff"
+            }
+        }
+        ,{
+            "path" : "pages/WritingPage/WritingPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "立即发表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myManuscriptPage/myManuscriptPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的投稿",
+                "enablePullDownRefresh": false,
+								"navigationBarBackgroundColor":"#E8E8E8"
+            }
+
+        }
+        ,{
+            "path" : "pages/comment/comment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "佚名",
+                "enablePullDownRefresh": false,
+								"navigationBarBackgroundColor":"#E8E8E8"
+            }
+
+        }
+        ,{
+            "path" : "pages/myComment/myComment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的评论",
+                "enablePullDownRefresh": false,
+								"navigationBarBackgroundColor":"#E8E8E8"
+            }
+            
+        }
+        ,{
+            "path" : "pages/myLikesPage/myLikesPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "佚名",
+		"navigationBarBackgroundColor": "#E8E8E8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor":"#027AFF",
+		"color":"#BDBDBD",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tabs/discovery.png",
+				"selectedIconPath":"static/tabs/discoveryH.png"
+			},{
+				"text": "精选",
+				"pagePath":"pages/choiceness/choiceness",
+				"iconPath":"static/tabs/home.png",
+				"selectedIconPath":"static/tabs/homeH.png"
+			},{
+				"text": "我的",
+				"pagePath":"pages/user/user",
+				"iconPath":"static/tabs/mine.png",
+				"selectedIconPath":"static/tabs/mineH.png"
+			}
+		]
+	}
+}
